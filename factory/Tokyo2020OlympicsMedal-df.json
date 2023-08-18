@@ -1,0 +1,9 @@
+{
+	"name": "Tokyo2020OlympicsMedal-df",
+	"location": "southafricanorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22a5e705-782d-465c-ad34-4734c18dbe81",
+		"tenantId": "e6a40ef6-a625-4275-b658-4d51e0d84e7e"
+	}
+}
