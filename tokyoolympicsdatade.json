@@ -1,0 +1,73 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/3035641d-e7f2-4dd4-8c53-e0ba0e64283e/resourceGroups/2021-Olympics-in-Tokyo/providers/Microsoft.Storage/storageAccounts/tokyoolympicsdatade",
+    "name": "tokyoolympicsdatade",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "southafricanorth",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2023-08-20T21:54:18.6100861Z",
+            "key2": "2023-08-20T21:54:18.6100861Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "isSftpEnabled": false,
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-08-20T21:54:18.6100861Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-08-20T21:54:18.6100861Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2023-08-20T21:54:18.5319297Z",
+        "primaryEndpoints": {
+            "dfs": "https://tokyoolympicsdatade.dfs.core.windows.net/",
+            "web": "https://tokyoolympicsdatade.z1.web.core.windows.net/",
+            "blob": "https://tokyoolympicsdatade.blob.core.windows.net/",
+            "queue": "https://tokyoolympicsdatade.queue.core.windows.net/",
+            "table": "https://tokyoolympicsdatade.table.core.windows.net/",
+            "file": "https://tokyoolympicsdatade.file.core.windows.net/"
+        },
+        "primaryLocation": "southafricanorth",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "southafricawest",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://tokyoolympicsdatade-secondary.dfs.core.windows.net/",
+            "web": "https://tokyoolympicsdatade-secondary.z1.web.core.windows.net/",
+            "blob": "https://tokyoolympicsdatade-secondary.blob.core.windows.net/",
+            "queue": "https://tokyoolympicsdatade-secondary.queue.core.windows.net/",
+            "table": "https://tokyoolympicsdatade-secondary.table.core.windows.net/"
+        }
+    }
+}
