@@ -1,0 +1,5 @@
+﻿NAME,TYPE,LOCATION,
+"2021-Olympics-in-Tokyo-df","Data factory (V2)","South Africa North"
+"tokyo-olympic-db","Azure Databricks Service","South Africa North"
+"tokyo-olympic-dfsa","Synapse workspace","South Africa North"
+"tokyoolympicsdatade","Storage account","South Africa North"
